@@ -1,14 +1,25 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# Bose Headphones E-commerce CMP App
+## Overview
+The Bose Headphones E-commerce App is a cross-platform mobile application built using Jetpack Compose Multiplatform. It showcases a sleek and intuitive UI for browsing and purchasing Bose headphones. The app features a Home Screen displaying a list of products and a detailed screen for each product with smooth animations.
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+## Features & Libraries & API
+- Home Screen: Displays a list of available Bose headphones.
+- Product Details Screen: Provides detailed information about each product with interactive animations.
+- Smooth Navigation: Ensures a seamless user experience with Compose's animation capabilities.
+- Cross-Platform: Built using Compose Multiplatform to run on both Android, iOS and Desktop.
+- animateFloatAsState animation
+- SlideInAnimation
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Contributing
 
+Contributions are welcome! Please follow these steps:
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature-branch).
+- Open a pull request.
+
+## Contact
+
+For any inquiries, please contact waqaswaseem679@gmail.com.
