@@ -180,8 +180,7 @@ private fun HomeScreen(onItemClick: (Int) -> Unit, onBackPress: () -> Unit) {
                 )
                 HeadPhoneCard(
                     modifier = Modifier.clickable { onItemClick(index) }.graphicsLayer {
-                        translationX =
-                            if (index % 2 == 0) -slideInAnimationCard else slideInAnimationCard
+                        translationX = if (index % 2 == 0) -slideInAnimationCard else slideInAnimationCard
                     },
                     headPhone = item
                 )

@@ -110,7 +110,7 @@ fun DetailsScreen(modifier: Modifier = Modifier, headPhone: HeadPhone, onBackPre
         isVisible = 3
     }
     val slideInAnimation by animateFloatAsState(
-        targetValue = if (isVisible == 1) 1.3f else if (isVisible == 2) 0.9f else 1.1f,
+        targetValue = if (isVisible == 1) 1.2f else if (isVisible == 2) 0.9f else 1f,
         animationSpec = tween(durationMillis = 1000),
         label = ""
     )
