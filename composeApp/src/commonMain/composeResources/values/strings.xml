@@ -1,0 +1,12 @@
+<resources>
+    <string name="wireless_headphones">Wireless Headphones</string>
+    <string name="quick_comfort_35_wireless">QuietComfort 35 wireless headphones II</string>
+    <string name="quick_comfort_price">$499.99</string>
+    <string name="sound_link_around">SoundLink® around ear wireless headphones</string>
+    <string name="sound_link_around_price">$269.99</string>
+    <string name="boss_on_ear">Bose on-ear wireless headphones</string>
+    <string name="boss_on_ear_price">$209.99</string>
+    <string name="boss_noise_cancelling">Bose Noise Cancelling Headphones 700</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="limited_edition">Limited Edition</string>
+</resources>
